@@ -14,5 +14,5 @@ jobs:
         username: ubuntu
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
-          cd /home/ubuntu/deploy/CICD
+          cd /home/ubuntu/deploy/
           bash deploy.sh
